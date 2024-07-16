@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {ExpensesDetail} from "./components/ExpensesDetail";
+import {AddExpenses} from "./components/AddExpenses";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <AddExpenses/>
   </React.StrictMode>
 );
 
