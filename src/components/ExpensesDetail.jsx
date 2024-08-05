@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Button, Container, Grid} from "@mui/material";
+import {Button, Container, Grid, TextField} from "@mui/material";
 import {DatePicker, LocalizationProvider} from "@mui/x-date-pickers";
 import {AdapterDateFns} from "@mui/x-date-pickers/AdapterDateFnsV3";
 import dayjs from "dayjs";
@@ -96,6 +96,8 @@ export const ExpensesDetail = () => {
                         />
                     </LocalizationProvider>
                 </Grid>
+
+
 
                 <Grid item>
                     <Button variant="contained">Buscar</Button>
