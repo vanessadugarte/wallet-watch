@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {ExpensesDetail} from "./components/ExpensesDetail";
 import {AddExpenses} from "./components/AddExpenses";
+import Navbar from "./components/common/Navbar";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <AddExpenses/>
+      <Navbar/>
   </React.StrictMode>
 );
 

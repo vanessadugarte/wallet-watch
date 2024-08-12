@@ -42,6 +42,12 @@ export const ExpensesDetail = () => {
         },
         {
             field: 'quantity',
+            headerName: 'precio reg. unitario',
+            width: 150,
+            editable: true,
+        },
+        {
+            field: 'quantity',
             headerName: 'Cantidad',
             width: 150,
             editable: true,
