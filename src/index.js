@@ -6,12 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import {ExpensesDetail} from "./components/ExpensesDetail";
 import {AddExpenses} from "./components/AddExpenses";
 import Navbar from "./components/common/Navbar";
+import ManagementCenter from "./components/management-center/ManagementCenter";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <AddExpenses/>
       <Navbar/>
+      {/*<AddExpenses/>*/}
+      <ManagementCenter/>
   </React.StrictMode>
 );
 
